@@ -1,0 +1,48 @@
+{
+  "name": "TahananNarkoba",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-flow-react-proptypes": "^4.1.0",
+    "babel-preset-react-native": "^2.0.0",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "scripts": {
+    "android:logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V",
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-action-button": "^2.6.10",
+    "react-native-android-permissions": "^1.0.0",
+    "react-native-communications": "^2.2.1",
+    "react-native-elements": "git://github.com/react-native-training/react-native-elements.git#next",
+    "react-native-image-gallery": "^1.1.0",
+    "react-native-loading-spinner-overlay": "^0.5.0",
+    "react-native-maps": "0.15.3",
+    "react-native-material-bottom-navigation": "^0.5.1",
+    "react-native-mauron85-background-geolocation": "^0.2.0-alpha.7",
+    "react-native-onesignal": "^3.0.4",
+    "react-native-photo-grid-frame": "^2.0.1",
+    "react-native-popup-dialog": "^0.9.33",
+    "react-native-popup-menu": "^0.7.5",
+    "react-native-render-html": "^3.10.0",
+    "react-native-timeline-listview": "^0.2.1",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-navigation-addons": "github:satya164/react-navigation-addons",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.0",
+    "redux-persist": "^4.8.1"
+  }
+}

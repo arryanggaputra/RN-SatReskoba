@@ -22,7 +22,7 @@
     "axios": "^0.16.2",
     "moment": "^2.18.1",
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.0",
+    "react-native": "^0.83.1",
     "react-native-action-button": "^2.6.10",
     "react-native-android-permissions": "^1.0.0",
     "react-native-communications": "^2.2.1",
